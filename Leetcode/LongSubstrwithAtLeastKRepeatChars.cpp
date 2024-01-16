@@ -26,7 +26,7 @@ public:
             start++;
         int c2=0;
         if(start<n)
-            c2=longestSubstring(s.substr(start),k); // Checcking the last half
+            c2=longestSubstring(s.substr(start),k); // Checking the last half
         return max(c1,c2); // picking the best
     }
 };
